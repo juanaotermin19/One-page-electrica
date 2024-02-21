@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+
+
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(imagenes/frente.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    position: fixed; /* Fijar la barra de navegación en la parte superior */
+    width: 100%; /* Ocupar el ancho completo de la ventana */
+    top: 0; /* Alinear la barra de navegación en la parte superior */
+    background-color: #CE967B;
+    padding: 5px 20px; /* Espaciado interno de la barra de navegación */
+    z-index: 1000; /* Asegurar que la barra de navegación esté por encima de otros elementos */
+    
+}
+.navbar ul {
+    text-align: right;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: right;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color:#FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+    color: #414247;
+}
+
+
+.header-content {
+    text-align: center;
+}
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color:#F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: #ebad8d;
+}
+
+.stihl {
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+}
+
+.stihl-content {
+    text-align: center;
+}
+
+.stihl-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.stihl-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+}
+
+.stihl-1 {
+    padding: 10px 50px;
+}
+
+.stihl-1 img {
+    width: 200px;
+}
+
+.stihl-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+
+
+
+.general-2{
+    background-image: url(imagenes/iluminacion.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3{
+    background-image: url(imagenes/herramientas-2.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.blog{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-1 {
+    padding: 15px 55px;
+}
+
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: #323337;
+    top: 20px;
+}
+
+.blog  p {
+    padding: 10px 20px;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: #000000;
+}
+ 
+.footer-content h3 {
+    font-size: 30px;
+}
+.footer-content {
+    font-size: 15px;
+    color: #F9FAFC;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media(max-width:991px) {
+    .menu {
+        padding:30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        background-color:#323337;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    .stihl {
+        padding: 30px;
+    }
+
+    .stihl-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .stihl-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .stihl-img {
+        display: none;
+    }
+
+    .stihl {
+        padding: 30px;
+    }
+
+    .stihl-content p {
+        padding: 0;
+    }
+    
+    .stihl-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .stihl-1 {
+        margin-bottom: 25px;
+    }
+
+    .general {
+        flex-direction: column;
+    }
+
+    .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general-2, .general-3 {
+        display: none;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        padding: 0;
+    }
+    
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
